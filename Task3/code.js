@@ -2,6 +2,7 @@ let display = document.getElementById('inputBox');
 let buttons =document.querySelectorAll('button');
 
 let buttonArray = Array.from(buttons);
+
 let string ='';
 
 buttonArray.forEach(btn => {
